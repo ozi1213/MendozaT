@@ -1,0 +1,25 @@
+public class Fibos {
+	
+	public static void main(String args[]) {
+		
+		int valor1=0;
+		int valor2=1;
+		int i = 0;
+		
+		System.out.println(valor1);
+		System.out.println(valor2);
+		
+		do {
+			
+			int valor3=valor1+valor2;
+			
+			System.out.println(valor3);
+			
+			valor1=valor2;
+			valor2=valor3;
+			i= i + 1;
+			
+		}while(i <= 10);
+	}
+
+}
